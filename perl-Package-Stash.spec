@@ -5,7 +5,7 @@
 
 Name:		perl-Package-Stash
 Version:	0.34
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	Routines for manipulating stashes
 Group:		Development/Libraries
 License:	GPL+ or Artistic
@@ -85,6 +85,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Package::Stash::PP.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.34-2
+- Mass rebuild 2013-12-27
+
 * Sun Jan  6 2013 Paul Howarth <paul@city-fan.org> - 0.34-1
 - Update to 0.34
   - Support anonymous stashes on newer perl versions
